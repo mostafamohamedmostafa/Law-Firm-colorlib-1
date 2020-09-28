@@ -86,55 +86,51 @@ body {
   margin-bottom: 5%;
 }
 
-.intro-section .card-title{
+.intro-section .card-title {
   color: #3957ff;
 }
 
-.intro-section .card .card-img-overlay{ 
-text-align: center;
-font-size: xx-large;
-margin-top: 4%;
+.intro-section .card .card-img-overlay {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 4%;
 }
-
-
 
 @media (max-width: 768px) {
   .intro-section {
     margin-bottom: 10%;
   }
-  .intro-section .card{
-    height: 35vh;
-
-  }
-
-  .intro-section .card img{
+  .intro-section .card {
     height: 35vh;
   }
 
-  .intro-section .card .card-img-overlay h2{ 
+  .intro-section .card img {
+    height: 35vh;
+  }
+
+  .intro-section .card .card-img-overlay h2 {
     text-align: center;
     font-size: small;
-    }
+  }
 
-  .intro-section .card .card-img-overlay p{ 
+  .intro-section .card .card-img-overlay p {
     text-align: center;
     font-size: x-small;
-    }
+  }
 
-    .intro-section .card .card-img-overlay button{ 
-      text-align: center;
-      font-size: x-small;
-      margin-top: 0;
-      }
-  
-    
+  .intro-section .card .card-img-overlay button {
+    text-align: center;
+    font-size: x-small;
+    margin-top: 0;
+  }
 }
 
 /*<!-- End Intro Section -->*/
 
 /*<!-- Start Services Section -->*/
-.service-section h5,span {
-  color:#3957ff;
+.service-section h5,
+span {
+  color: #3957ff;
 }
 
 .service-section h5 {
@@ -153,10 +149,10 @@ margin-top: 4%;
 }
 
 .service-section .card-group img {
-height: 64px;
+  height: 64px;
 }
 
-.service-section  .specail-card .card-body{
+.service-section .specail-card .card-body {
   border: none !important;
 }
 
@@ -172,8 +168,6 @@ height: 64px;
   /*<!-- End Services Section -->*/
 }
 
-
-
 /*<!-- Start About Section -->*/
 
 .about-section .card {
@@ -182,12 +176,11 @@ height: 64px;
   width: 100% !important;
 }
 
-
 .about-section span {
   color: white;
 }
 
-.about-section .right-about-card{
+.about-section .right-about-card {
   background-color: #3957ff;
   color: white;
 }
@@ -204,20 +197,57 @@ height: 64px;
 
 
 /*<!-- ٍStart Contact Section -->*/
+.contact-us-section {
+  text-align: right;
+}
 
-.contact-section {
-  text-align: left;
+.contact-us-section {
+  text-align: right;
+  background-color: #edf2ff;
+  color: white;
+  height: 70vh;
+}
+.contact-us-form {
+  text-align: right;
+  background-color: #3957ff;
+  top: 100px;
+ }
+
+.contact-us-form form input  {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 
+.contact-us-form form select  {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 
 
+.contact-us-form form button  {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .contact-us-section {
+    font-size: small;
+  }
+  .contact-us-form {
+    font-size: small;
+  }
 
+  .contact-us-form form input  {
+    font-size: small;
+  }
 
-
+  .contact-us-form form select  {
+    font-size: small;
+   }
+}
 
 /*<!-- End Contact Section -->*/
-
 
 /*<!-- Start News and Specailty Section -->*/
 .new-speacilty-section {
@@ -268,7 +298,6 @@ height: 64px;
     font-size: x-small;
   }
 }
-
 
 /*<!-- Start Footer Section -->*/
 .site-footer {

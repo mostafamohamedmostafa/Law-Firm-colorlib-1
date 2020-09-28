@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+
+/*<!-- Start Nav Bar -->*/
+.navigation-bar nav {
+  background-color: white;
+}
+
+.navigation-bar .navbar-toggler {
+  background-color: #101b2b;
+}
+.navigation-bar .navbar-brand {
+  color: rgb(104, 101, 101) !important;
+}
+
+.navigation-bar .navbar-brand .nav-brand-text {
+  font-size: medium;
+  margin: 1%;
+}
+
+.navigation-bar .nav-item {
+  text-align: right;
+  font-size: medium;
+}
+
+.navigation-bar .nav-item a {
+  color: rgb(104, 101, 101) !important;
+}
+
+.navigation-bar .nav-item :hover {
+  color: #59abc0 !important;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #83e7ff !important ;
+}
+
+@media (max-width: 768px) {
+  .navigation-bar nav {
+  }
+  .navigation-bar .navbar-brand {
+    font-size: small;
+  }
+  .navigation-bar .navbar-brand .nav-brand-text {
+    font-size: small;
+    margin: 1%;
+  }
+
+  .navigation-bar .nav-item {
+    font-size: small;
+  }
+}
+
+/*<!-- End Nav Bar -->*/
+
+/*<!-- Start Intro Section -->*/
+
+.intro-section {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.intro-section .card-group {
+  height: 70vh;
+}
+
+.intro-section .card {
+  border: none;
+}
+
+.intro-section .right-intro-box {
+  background-color: #101b2b;
+}
+
+.intro-section .right-intro-box h2 {
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.intro-section .right-intro-box span {
+  color: #35d4be;
+}
+
+.intro-section .left-intro-box {
+  background-color: #f2f2f2;
+}
+
+.intro-section .left-intro-box .blockquote {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.intro-section .left-intro-box .blockquote i {
+  color: #35d4be;
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    margin-bottom: 10%;
+  }
+  .intro-section .right-intro-box {
+    height: 40vh;
+  }
+
+  .intro-section .right-intro-box h2 {
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    font-size: medium;
+    text-align: right;
+  }
+
+  .intro-section .left-intro-box {
+    height: 50vh;
+  }
+
+  .intro-section .left-intro-box .blockquote {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: small;
+  }
+}
+
+/*<!-- End Intro Section -->*/
+
+/*<!-- Start About Section -->*/
+
+.about-section .card {
+  text-align: right;
+  border: none;
+  width: 100% !important;
+}
+
+.about-section .card .card-body {
+  margin-right: 5%;
+}
+
+.
+/*<!-- End About Section -->*/
+
+/*<!-- Start News and Specailty Section -->*/
+.new-speacilty-section {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: right;
+}
+
+.new-speacilty-section .speacilty-card {
+  border-top: 3px solid #ffb400;
+}
+
+.new-speacilty-section .speacilty-card .card {
+  border: none;
+}
+
+.new-speacilty-section .speacilty-card h5 {
+  color: #ffb400;
+}
+
+.new-speacilty-section .speacilty-card .card li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.new-speacilty-section .news-card {
+  border-top: 3px solid black;
+}
+
+.new-speacilty-section .news-card .card {
+  border: none;
+}
+
+.new-speacilty-section .news-card .card-news-img {
+  margin: auto;
+}
+
+/*<!-- End News and Specailty Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start About Section -->*/
+
+  .about-section .card .card-body h5 {
+    font-size: medium;
+  }
+
+  .about-section .card .card-body {
+    font-size: x-small;
+  }
+}
+/*<!-- Start Services Section -->*/
+.service-section {
+  background-color: #f2f2f2;
+}
+
+.service-section h5 {
+  text-align: right;
+}
+.service-section .card {
+  text-align: right;
+  border: none;
+  width: 100% !important;
+  margin-right: 1%;
+  border: none;
+  background-color: #f2f2f2;
+}
+.service-section .card-group span {
+  font-size: x-large;
+  border-bottom: #35d4be 3px solid;
+}
+
+/*<!-- End Services Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start Services Section -->*/
+
+  .service-section .card {
+    font-size: small;
+  }
+
+  /*<!-- End Services Section -->*/
+}
+
+  /*<!-- Start Footer Section -->*/
+.site-footer {
+  background-color: #101b2b;
+  height: 30vh;
+  font-size: xx-large;
+  text-align: right;
+}
+.site-footer a {
+  text-decoration: none;
+  color: #59abc0;
+}
+
+.site-footer p{
+  color: white;
+}
+@media (max-width: 768px) {
+
+  .site-footer {
+
+    font-size: large;
+  }
+
+}
+
+    /*<!-- End Footer Section -->*/
+
+

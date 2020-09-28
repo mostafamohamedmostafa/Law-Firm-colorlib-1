@@ -14,11 +14,22 @@ body {
   background-color: white;
 }
 
+.navigation-bar img {
+  height: 64px;
+  width: auto;
+}
+
+.navigation-bar .styled-a a {
+  color: white !important;
+  background-color: #3957ff !important;
+}
+
 .navigation-bar .navbar-toggler {
   background-color: #101b2b;
 }
 .navigation-bar .navbar-brand {
-  color: rgb(104, 101, 101) !important;
+  color: black !important;
+  font-size: medium;
 }
 
 .navigation-bar .navbar-brand .nav-brand-text {
@@ -32,20 +43,27 @@ body {
 }
 
 .navigation-bar .nav-item a {
-  color: rgb(104, 101, 101) !important;
+  color: #4b2957 !important;
 }
 
 .navigation-bar .nav-item :hover {
-  color: #59abc0 !important;
+  color: #3957ff !important;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link {
-  color: #83e7ff !important ;
+  color: #3957ff !important ;
 }
 
 @media (max-width: 768px) {
-  .navigation-bar nav {
+  .navigation-bar img {
+    height: 32px;
+    width: auto;
   }
+
+  .navigation-bar .navbar-toggler {
+    font-size: x-small;
+  }
+
   .navigation-bar .navbar-brand {
     font-size: small;
   }
@@ -68,75 +86,93 @@ body {
   margin-bottom: 5%;
 }
 
-.intro-section .card-group {
-  height: 70vh;
+.intro-section .card-title{
+  color: #3957ff;
 }
 
-.intro-section .card {
-  border: none;
+.intro-section .card .card-img-overlay{ 
+text-align: center;
+font-size: xx-large;
+margin-top: 4%;
 }
 
-.intro-section .right-intro-box {
-  background-color: #101b2b;
-}
 
-.intro-section .right-intro-box h2 {
-  color: white;
-  position: absolute;
-  top: 30%;
-  right: 20%;
-  font-size: 2.5rem;
-  text-align: right;
-}
-
-.intro-section .right-intro-box span {
-  color: #35d4be;
-}
-
-.intro-section .left-intro-box {
-  background-color: #f2f2f2;
-}
-
-.intro-section .left-intro-box .blockquote {
-  position: absolute;
-  top: 25%;
-  left: 15%;
-}
-
-.intro-section .left-intro-box .blockquote i {
-  color: #35d4be;
-}
 
 @media (max-width: 768px) {
   .intro-section {
     margin-bottom: 10%;
   }
-  .intro-section .right-intro-box {
-    height: 40vh;
+  .intro-section .card{
+    height: 35vh;
+
   }
 
-  .intro-section .right-intro-box h2 {
-    color: white;
-    position: absolute;
-    top: 30%;
-    right: 20%;
-    font-size: medium;
-    text-align: right;
+  .intro-section .card img{
+    height: 35vh;
   }
 
-  .intro-section .left-intro-box {
-    height: 50vh;
-  }
-
-  .intro-section .left-intro-box .blockquote {
-    position: absolute;
-    top: 25%;
-    left: 15%;
+  .intro-section .card .card-img-overlay h2{ 
+    text-align: center;
     font-size: small;
-  }
+    }
+
+  .intro-section .card .card-img-overlay p{ 
+    text-align: center;
+    font-size: x-small;
+    }
+
+    .intro-section .card .card-img-overlay button{ 
+      text-align: center;
+      font-size: x-small;
+      margin-top: 0;
+      }
+  
+    
 }
 
 /*<!-- End Intro Section -->*/
+
+/*<!-- Start Services Section -->*/
+.service-section h5,span {
+  color:#3957ff;
+}
+
+.service-section h5 {
+  text-align: right;
+}
+.service-section .card {
+  text-align: right;
+  margin: 1%;
+  padding: 1%;
+  font-size: medium;
+  border: none;
+}
+
+.service-section .card-body {
+  border: 1px solid#dddddd;
+}
+
+.service-section .card-group img {
+height: 64px;
+}
+
+.service-section  .specail-card .card-body{
+  border: none !important;
+}
+
+/*<!-- End Services Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start Services Section -->*/
+
+  .service-section .card {
+    font-size: small;
+  }
+
+  /*<!-- End Services Section -->*/
+}
+
+
 
 /*<!-- Start About Section -->*/
 
@@ -146,12 +182,42 @@ body {
   width: 100% !important;
 }
 
+
+.about-section span {
+  color: white;
+}
+
+.about-section .right-about-card{
+  background-color: #3957ff;
+  color: white;
+}
+
 .about-section .card .card-body {
   margin-right: 5%;
 }
 
 .
 /*<!-- End About Section -->*/
+
+
+
+
+
+/*<!-- ٍStart Contact Section -->*/
+
+.contact-section {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+/*<!-- End Contact Section -->*/
+
 
 /*<!-- Start News and Specailty Section -->*/
 .new-speacilty-section {
@@ -202,40 +268,9 @@ body {
     font-size: x-small;
   }
 }
-/*<!-- Start Services Section -->*/
-.service-section {
-  background-color: #f2f2f2;
-}
 
-.service-section h5 {
-  text-align: right;
-}
-.service-section .card {
-  text-align: right;
-  border: none;
-  width: 100% !important;
-  margin-right: 1%;
-  border: none;
-  background-color: #f2f2f2;
-}
-.service-section .card-group span {
-  font-size: x-large;
-  border-bottom: #35d4be 3px solid;
-}
 
-/*<!-- End Services Section -->*/
-
-@media (max-width: 768px) {
-  /*<!-- Start Services Section -->*/
-
-  .service-section .card {
-    font-size: small;
-  }
-
-  /*<!-- End Services Section -->*/
-}
-
-  /*<!-- Start Footer Section -->*/
+/*<!-- Start Footer Section -->*/
 .site-footer {
   background-color: #101b2b;
   height: 30vh;
@@ -247,18 +282,13 @@ body {
   color: #59abc0;
 }
 
-.site-footer p{
+.site-footer p {
   color: white;
 }
 @media (max-width: 768px) {
-
   .site-footer {
-
     font-size: large;
   }
-
 }
 
-    /*<!-- End Footer Section -->*/
-
-
+/*<!-- End Footer Section -->*/

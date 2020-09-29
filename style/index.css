@@ -284,6 +284,7 @@ body {
   background-color: gray;
   height: 25vh;
   margin-top: 3%;
+  color: white;
 }
 
 .call-to-action .call-to-action-content h3 , button{
@@ -309,57 +310,24 @@ body {
 
 /*<!-- End Call TO Action Section -->*/
 
+/*<!-- Start Team Section -->*/
 
-
-/*<!-- Start News and Specailty Section -->*/
-.new-speacilty-section {
-  margin-top: 2%;
-  margin-bottom: 2%;
+.team-section{
   text-align: right;
 }
 
-.new-speacilty-section .speacilty-card {
-  border-top: 3px solid #ffb400;
+.team-section .card {
+  background-color:#edf2ff;
 }
 
-.new-speacilty-section .speacilty-card .card {
-  border: none;
+.team-section .card p {
+  color: #59abc0;
 }
 
-.new-speacilty-section .speacilty-card h5 {
-  color: #ffb400;
-}
 
-.new-speacilty-section .speacilty-card .card li {
-  list-style: none;
-  line-height: 2rem;
-}
 
-.new-speacilty-section .news-card {
-  border-top: 3px solid black;
-}
 
-.new-speacilty-section .news-card .card {
-  border: none;
-}
-
-.new-speacilty-section .news-card .card-news-img {
-  margin: auto;
-}
-
-/*<!-- End News and Specailty Section -->*/
-
-@media (max-width: 768px) {
-  /*<!-- Start About Section -->*/
-
-  .about-section .card .card-body h5 {
-    font-size: medium;
-  }
-
-  .about-section .card .card-body {
-    font-size: x-small;
-  }
-}
+/*<!-- End Team Section -->*/
 
 /*<!-- Start Footer Section -->*/
 .site-footer {

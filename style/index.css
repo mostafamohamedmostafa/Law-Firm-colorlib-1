@@ -399,22 +399,42 @@ opacity: 1;
 /*<!-- Start Footer Section -->*/
 .site-footer {
   background-color: #101b2b;
-  height: 30vh;
-  font-size: xx-large;
+  background-image: url('https://cdn.pixabay.com/photo/2014/03/25/16/34/world-map-297446_960_720.png');
   text-align: right;
 }
+
+.site-footer img {
+height: 64px;
+
+} 
 .site-footer a {
   text-decoration: none;
-  color: #59abc0;
+  color :white;
+
 }
 
 .site-footer p {
   color: white;
 }
+
+
+.footer-services {
+  margin-top: auto;
+}
+
 @media (max-width: 768px) {
-  .site-footer {
-    font-size: large;
+
+  .footer-section li p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+  }
+  .footer-section li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
   }
 }
+
 
 /*<!-- End Footer Section -->*/

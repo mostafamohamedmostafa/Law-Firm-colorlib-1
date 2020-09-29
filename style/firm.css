@@ -9,71 +9,432 @@ body {
   font-family: "Tajawal", sans-serif;
 }
 
-/*<!-- Start News and Specailty Section -->*/
-.about-firm-section {
-  margin-top: 2%;
-  margin-bottom: 2%;
+/*<!-- Start Nav Bar -->*/
+.navigation-bar nav {
+  background-color: white;
+}
+
+.navigation-bar img {
+  height: 64px;
+  width: auto;
+}
+
+.navigation-bar .styled-a a {
+  color: white !important;
+  background-color: #3957ff !important;
+}
+
+.navigation-bar .navbar-toggler {
+  background-color: gray;
+}
+
+
+
+
+
+
+.navigation-bar .navbar-brand {
+  color: black !important;
+  font-size: medium;
+}
+
+.navigation-bar .navbar-brand .nav-brand-text {
+  font-size: medium;
+  margin: 1%;
+}
+
+.navigation-bar .nav-item {
   text-align: right;
-
+  font-size: medium;
 }
 
-
-.about-firm-section .card {
-  border: none;
+.navigation-bar .nav-item a {
+  color: #4b2957 !important;
 }
 
-.about-firm-section h5,
-h6 {
-  color:#59abc0;
+.navigation-bar .nav-item :hover {
+  color: #3957ff !important;
 }
 
-.about-firm-section .card li {
-  list-style: none;
-  line-height: 2rem;
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #3957ff !important ;
 }
-
-.about-firm-section img {
-  height: 70%;
-}
-
-/*<!-- End News and Specailty Section -->*/
 
 @media (max-width: 768px) {
-  /*<!-- Start About Section -->*/
 
-  /*<!-- Start News and Specailty Section -->*/
-  .about-firm-section {
+  .navigation-bar img {
+    height: 32px;
+    width: auto;
+
+  }
+
+  .navigation-bar .navbar-toggler {
+    font-size: x-small;
+  }
+
+  .navigation-bar .navbar-brand {
+    font-size: small;
+  }
+  .navigation-bar .navbar-brand .nav-brand-text {
+    font-size: small;
+    margin: 1%;
+  }
+
+  .navigation-bar .nav-item {
     font-size: small;
   }
 }
 
+/*<!-- End Nav Bar -->*/
 
-/*<!-- Start Team Section -->*/
+/*<!-- Start Intro Section -->*/
 
+.intro-section {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
 
-.team-section .card {
+.intro-section .card-title {
+  color: #3957ff;
+}
+
+.intro-section .card .card-img-overlay {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 4%;
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    margin-bottom: 10%;
+  }
+  .intro-section .card {
+    height: 30vh;
+  }
+
+  .intro-section .card img {
+    height: 30vh;
+  }
+
+  .intro-section .card .card-img-overlay h2 {
+    text-align: center;
+    font-size: small;
+  }
+
+  .intro-section .card .card-img-overlay p {
+    text-align: center;
+    font-size: x-small;
+  }
+
+  .intro-section .card .card-img-overlay button {
+    text-align: center;
+    font-size: x-small;
+    margin-top: 0;
+  }
+}
+
+/*<!-- End Intro Section -->*/
+
+/*<!-- Start Services Section -->*/
+.service-section h5 {
+  color:black;
+}
+
+.service-section h5 {
+  text-align: right;
+}
+.service-section .card {
+  text-align: right;
+  margin: 1%;
+  padding: 1%;
+  font-size: medium;
+  border: none;
+}
+
+.service-section .card-body {
+  border: 1px solid#dddddd;
+}
+
+.service-section .card-group img {
+  height: 64px;
+}
+
+.service-section .specail-card .card-body {
+  border: none !important;
+}
+
+/*<!-- End Services Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start Services Section -->*/
+
+  .service-section .card ,h5 ,p  {
+    font-size: medium;
+  }
+
+  /*<!-- End Services Section -->*/
+}
+
+/*<!-- Start About Section -->*/
+
+.about-section .card {
   text-align: right;
   border: none;
   width: 100% !important;
-
 }
 
-.team-section .card .card-body {
+.about-section span {
+  color: white;
+}
+
+.about-section .right-about-card {
+  background-color: gray;
+  color: white;
+}
+
+.about-section .card .card-body {
   margin-right: 5%;
 }
 
-
-
+.
 /*<!-- End About Section -->*/
 
-@media (max-width: 768px) {
-  /*<!-- Teeam About Section -->*/
 
-  .team-section .card {
+
+
+
+/*<!-- ٍStart Contact Section -->*/
+.contact-us-section {
+  text-align: right;
+}
+
+.contact-us-section {
+  text-align: right;
+  background-color: #edf2ff;
+  color: white;
+  height: 70vh;
+}
+.contact-us-form {
+  text-align: right;
+  background-color:gray;
+  top: 50px;
+  height: 500px;
+  width: auto;
+ }
+
+.contact-us-form form input  {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+.contact-us-form form select  {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+.contact-us-form form button  {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .contact-us-section {
+    font-size: small;
+  }
+  .contact-us-form {
     font-size: small;
   }
 
-  /*<!-- End Team Section -->*/
+  .contact-us-form form input  {
+    font-size: small;
+  }
+
+  .contact-us-form form select  {
+    font-size: small;
+   }
+}
+
+/*<!-- End Contact Section -->*/
+
+/*<!-- Start Cases Section -->*/
+.cases-section{
+  margin-top: 10%;
+  text-align: right;
+}
+
+.cases-section .card {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+@media (max-width: 768px) {
+  .cases-section{
+    margin-top: 22%;
+  }
+}  
+
+/*<!-- End Cases Section -->*/
+
+/*<!-- Start Call TO Action Section -->*/
+
+.call-to-action {
+  background-color: gray;
+  height: 25vh;
+  margin-top: 3%;
+  color: white;
+}
+
+.call-to-action .call-to-action-content h3 , button{
+  margin-top:10%;
+   
+}
+
+.call-to-action .call-to-action-content button{
+  margin-top:10%;
+   
+}
+
+@media (max-width: 768px) {
+  .call-to-action .call-to-action-content h3 , button{
+    margin-top:10%;
+     
+  }
+  
+  .call-to-action .call-to-action-content button{
+     
+  }
+} 
+
+/*<!-- End Call TO Action Section -->*/
+
+/*<!-- Start Team Section -->*/
+
+.team-section{
+  text-align: right;
+}
+
+.team-section .card {
+  background-color:#edf2ff;
+  border: none;
+}
+
+.team-section .card p {
+  color: #59abc0;
+}
+
+
+@media (max-width: 768px) {
+  .team-section  h3{
+
+ font-size: medium;
+ font-weight: bold;
+  }
+
+  .team-section  h1{
+
+    font-size: medium;
+     }
 
   
+  .team-section .card  img{
+    height:auto;
+    width: auto;
+  }
+
+
+
 }
+/*<!-- End Team Section -->*/
+
+/* Start testimonails-section*/
+.testimonails-section {
+  background-color: #f7f6f2;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  text-align: center;
+  height: 40vh;
+}
+
+.testimonails-section .carousel-inner .card{
+  border: none;
+  background: none;
+}
+.testimonails-section .carousel-inner  img {
+height: 256px;
+width: 256px;
+border-radius: 50%;
+margin: 0 auto;
+opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+  .testimonails-section .carousel-inner  img {
+    height: 96px;
+    width: 96px;
+    }
+
+    .testimonails-section .carousel-inner  .card-text {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    
+    }
+
+
+}
+
+.testimonails-section .carousel-caption {
+
+}
+
+
+/* End testimonails-section*/
+
+
+
+
+/*<!-- Start Footer Section -->*/
+.site-footer {
+  background-color: #101b2b;
+  background-image: url('https://cdn.pixabay.com/photo/2014/03/25/16/34/world-map-297446_960_720.png');
+  text-align: right;
+}
+
+.site-footer img {
+height: 64px;
+
+} 
+.site-footer a {
+  text-decoration: none;
+  color :white;
+
+}
+
+.site-footer p {
+  color: white;
+}
+
+
+.footer-services {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+
+  .footer-section li p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+  }
+  .footer-section li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+  }
+}
+
+
+/*<!-- End Footer Section -->*/
